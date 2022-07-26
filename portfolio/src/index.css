@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Inter, 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: #e9f7ff;
+}
+
+.info {
+  text-align: center;
+}
+
+.info--img{
+  max-width: 450px;
+}
+.info--name{
+  padding-top: 13px;
+  font-size: 2rem;
+}
+.info--title{
+  padding: 3px 0 7px;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.info--website{
+  padding: 7px 0 13px;
+  font-size: 0.6rem;
+}
+
+.info--btn{
+  padding: 10px 10px;
+  border-radius: 7px;
+  min-width: 25%;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  font-family: Inter;
+}
+
+.info--email{
+  margin-right: 12px;
+}
+
+.info--linkedin{
+  margin-right: 12px;
+  background-color: #4583DA;
+  color: white;
+}
+
+.about, .interest {
+  text-align: left;
+  margin: 0 3rem;
+  margin-top: 2.5rem;
+}
+
+.about--title, .interest--title{
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+}
+
+.about--desc, .interest--desc{
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer{
+  text-align: center;
+  padding-top: 1.5rem;
+  margin-top: 2rem;
+  background-color: grey;
+  margin-bottom: 0;
+}
+
+footer > a{
+  text-decoration: none;
+  background-color: white;
+  padding: 7px 10px;
+  margin: 7px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+footer p{
+  margin: 20px 0 0;
+  padding-bottom: 10px;
+  font-size: 0.8rem;
+}

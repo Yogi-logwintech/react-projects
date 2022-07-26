@@ -1,0 +1,89 @@
+.inputform{
+    background-color: rgb(170, 255, 255);
+    border-radius: 5px;
+    max-width: 550px;
+    min-width: 350px;
+    margin: 0 auto;
+    width: 80%;
+    padding: 1.5rem 10px;
+    box-shadow: 0 0 15px lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 2%;
+}
+
+input{
+    width: 65%;
+    max-width: 400px;
+}
+
+.gender input{
+    width: 25px;
+    min-width: 10px;
+}
+
+.education {
+    margin: 7px;
+    text-align: start;
+    padding: 5px 10px;
+    min-width: 200px;
+    width: 65%;
+    max-width: 400px;
+}
+
+.list{
+    margin: 0 auto;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    background-color: rgb(170, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 15px lightblue;
+    padding: 1rem;
+}
+
+.list-heading{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list-heading tr th{
+    padding: 5px;
+}
+
+.list-content{
+    padding: 5px;
+}
+
+.list-content tr td{
+    padding: 4px;
+}
+
+.list-content tr td button{
+    padding: 0.5rem 0.7rem;
+    border-radius: 50%;
+    margin: 0 3px;
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 1470px) {
+    .inputform{
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 30px;
+        min-width: none;
+    }
+    .list{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

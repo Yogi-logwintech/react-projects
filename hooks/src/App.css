@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  text-align: center;
+}
+p, button, h1, h2, h3, ul{
+  margin: 0;
+  padding: 0;
+}
+
+input, textarea{
+  padding: 5px;
+  width: 15%;
+  min-width: 200px;
+  margin-left: 5px;
+  resize: none;
+  text-align: left;
+}
+
+.address{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 10px;
+}
+
+form{
+  text-align: center;
+}
+
+button{
+  padding: 4px 1rem;
+  font-weight: 600;
+  border: 0;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: black;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 10px black;
+}
+
+nav h3{
+  color: white;
+  padding: 0 20px;
+}
+
+nav ul{
+  text-align: right;
+  padding: 7px 1.5rem;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 1rem 7px;
+}
+
+.link{
+  text-decoration: none;
+  padding: 0.6rem 1.2rem;
+  color: white;
+  border-radius: 1.6rem;
+  border: 1px solid whitesmoke;
+
+}
+.usereducer{
+  text-align: center;
+  max-width: 600px;
+}
+.active{
+  color: cyan;
+  border: 2px solid cyan;
+  font-weight: 600;
+}
+.link:hover, .active:hover{
+  border: 1px solid rgb(127, 202, 255);
+  color: rgb(127, 202, 255);
+}
+
+.contactForm input{
+  width: 60%;
+  max-width: 350px;
+}

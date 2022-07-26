@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins, 'Segoe UI', 'Roboto';
+}
+
+.container{
+  display: flex;
+  overflow-x: auto;
+}
+
+nav{
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0 2.98px 7.45px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo{
+  max-width: 100px;
+}
+
+section{
+  padding: 20px;
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--photo {
+  width: 60%;
+  min-width: 400px;
+  align-self: center;
+}
+
+.hero--header{
+  margin-bottom: 16px;
+  margin-top: 15px;
+}
+
+.hero--text{
+  margin-top: 0;
+}
+
+.card{
+  min-width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  margin: 13px 10px;
+}
+.border{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+
+.card--image{
+  width: 100%;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.card--stat{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.star{
+  font-size: 14px;
+}
+
+.gray{
+  color: #918E9B;
+  font-size: 12px;
+}
